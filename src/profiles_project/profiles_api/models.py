@@ -40,6 +40,7 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
 
+    # set custom profile manager on objects
     objects = UserProfileManager()
 
     USERNAME_FIELD = 'email'
