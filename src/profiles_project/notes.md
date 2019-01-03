@@ -2,6 +2,9 @@
 ## Create custom user model
 Gives you the ability over the user model fields
 
+## See models on the admin site
+* Register models in the admin.py file
+
 
 ## API Views
 
