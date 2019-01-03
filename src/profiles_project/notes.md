@@ -20,5 +20,11 @@ Maps functions to operations - List, Create, Retrieve, Update, Partial Update, D
     * when you don't need custom logic
     * have standard data structures
 
+### ModelViewSet
+Maps functions to operators for CRUD items
+
 ### Serializers
 Converts json to python object
+
+## Model Serializer
+serialize a model to python object
